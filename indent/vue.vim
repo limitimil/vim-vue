@@ -3,6 +3,10 @@
 " Maintainer: Eduardo San Martin Morote
 " Author: Adriaan Zonnenberg
 
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
 if exists('b:did_indent')
   finish
 endif
